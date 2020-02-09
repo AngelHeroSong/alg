@@ -1,3 +1,5 @@
+package sort;
+
 public class SelectionSort {
     public int[] selectionSort(int[] nums){
         //做第i躺排序

@@ -1,6 +1,8 @@
+package sort;
+
 public class InsertSort {
     public int[] insertSort(int[] nums){
-        for (int i = 1,len = nums.length;i<nums.length;i++){
+        for (int i = 1,len = nums.length;i<len;i++){
             int insertNode = nums[i] ;
             int j = i-1;
             while (j>=0&&insertNode<nums[j]){

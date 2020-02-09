@@ -1,3 +1,5 @@
+package sort;
+
 public class MergeSort {
     public int[] mergeSort(int nums[]){
         int left = 0;

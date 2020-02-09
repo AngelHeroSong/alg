@@ -1,3 +1,5 @@
+package sort;
+
 public class BubbleSort {
     public int[] bubbleSort(int[] nums){
 
