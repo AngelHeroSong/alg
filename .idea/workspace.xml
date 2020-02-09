@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953b854f-631a-4b93-ae74-6b4779feb3e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/最短路径.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/动态规划/背包1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/动态规划/背包1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/图的优先搜索.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/图的优先搜索.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,38 +69,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="53" />
+          <entry key="java" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="53" />
+          <entry key="JAVA" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2522" />
+          <entry key="java" value="3645" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2522" />
+          <entry key="JAVA" value="3645" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/背包问题.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/拓扑排序.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,17 +117,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/最短路径.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="568">
+              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
               <folding>
                 <element signature="e#1098#1099#0" expanded="true" />
                 <element signature="e#1142#1143#0" expanded="true" />
                 <element signature="e#1347#1348#0" expanded="true" />
                 <element signature="e#1392#1393#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Heap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -272,6 +270,7 @@
         <option value="$PROJECT_DIR$/src/图的优先搜索.java" />
         <option value="$PROJECT_DIR$/src/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/最短路径.java" />
+        <option value="$PROJECT_DIR$/src/Heap.java" />
       </list>
     </option>
   </component>
@@ -284,7 +283,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
     <option name="y" value="25" />
     <option name="width" value="1595" />
@@ -308,12 +307,6 @@
               <item name="alg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="alg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="动态规划" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -326,7 +319,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581243626037" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581256555607" />
     <property name="last_opened_file_path" value="D:/study" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -350,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.图的优先搜索">
+  <component name="RunManager" selected="Application.Heap">
     <configuration name="整数反转" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="整数反转" />
       <module name="leetcode" />
@@ -385,8 +378,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph" />
+    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -421,19 +414,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Graph" />
       <item itemvalue="Application.整数反转" />
       <item itemvalue="Application.背包问题" />
       <item itemvalue="Application.背包1" />
       <item itemvalue="Application.图的优先搜索" />
+      <item itemvalue="Application.Heap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Heap" />
         <item itemvalue="Application.图的优先搜索" />
         <item itemvalue="Application.背包1" />
         <item itemvalue="Application.背包问题" />
         <item itemvalue="Application.整数反转" />
-        <item itemvalue="Application.Graph" />
       </list>
     </recent_temporary>
   </component>
@@ -470,18 +463,18 @@
       <workItem from="1579227465536" duration="2858000" />
       <workItem from="1580279357185" duration="4069000" />
       <workItem from="1580785952098" duration="629000" />
-      <workItem from="1580823606094" duration="18542000" />
+      <workItem from="1580823606094" duration="27527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115076000" />
+    <option name="totallyTimeSpent" value="124061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17962466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17962466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -490,15 +483,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48324397" weight="0.0" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48592493" visible="true" weight="0.016152717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48123324" visible="true" weight="0.44640234" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48458445" weight="0.39647576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.7747989" weight="0.20851688" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51407504" side_tool="true" visible="true" weight="0.016152717" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.7741287" weight="0.22173275" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51876676" side_tool="true" visible="true" weight="0.44640234" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -550,13 +543,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HasCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/worksoft/java/java1.8/src.zip!/java/util/Stack.java" />
     <entry file="file://$PROJECT_DIR$/src/整数反转.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -892,14 +878,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/最短路径.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="568">
+          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
           <folding>
             <element signature="e#1098#1099#0" expanded="true" />
             <element signature="e#1142#1143#0" expanded="true" />
             <element signature="e#1347#1348#0" expanded="true" />
             <element signature="e#1392#1393#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
         </state>
       </provider>
     </entry>
