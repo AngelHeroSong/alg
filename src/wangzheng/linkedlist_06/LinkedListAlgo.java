@@ -1,7 +1,14 @@
 package wangzheng.linkedlist_06;
 
+import javax.imageio.stream.IIOByteBuffer;
+
 public class LinkedListAlgo {
 
+    /**
+     * 反转链表
+     * @param list
+     * @return
+     */
     public static Node reverse(Node list){
       Node curr = list,pre = null;
       while(curr!=null){
@@ -14,6 +21,12 @@ public class LinkedListAlgo {
       return pre;
     }
 
+    /**
+     * 求链表的中间节点
+     *
+     * @param list
+     * @return
+     */
     public static Node findMiddleNode(Node list){
         Node fast = list;
         Node slow = list;
