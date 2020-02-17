@@ -13,12 +13,18 @@ public class Permutation {
             System.out.print(array[i]+" ");
         }
     }
-    public void permutationg(int[] array,int length,int start){
-        for (int i = start;i<length;i++){
-            swap(array,start,i);
-            permutationg(array,length,start+1);
-            swap(array,length,i);
+    public void permutation(int[] array,int length,int start){
+        if (start ==length){
+            print(array);
+            return;
+        }else {
+            for (int i = start;i<length;i++){
+                swap(array,start,i);
+                permutation(array,length,start+1);
+                swap(array,length,i);
+            }
         }
+
 
     }
 }
