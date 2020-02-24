@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953b854f-631a-4b93-ae74-6b4779feb3e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/wangzheng/sorts_12/KthSmallest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wangzheng/sorts_15/Besearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wangzheng/hashtable_20/LRUBaseHashTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,30 +67,31 @@
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="74" />
+          <entry key="java" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="74" />
+          <entry key="JAVA" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13286" />
+          <entry key="java" value="14952" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13286" />
+          <entry key="JAVA" value="14952" />
         </counts>
       </usages-collector>
     </session>
@@ -101,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_12/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="484">
               <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
             </state>
           </provider>
@@ -110,17 +110,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_12/KthSmallest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="704">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_15/Besearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1452">
+              <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_15/Besearch.java">
+        <entry file="file://$PROJECT_DIR$/src/wangzheng/hashtable_20/LRUBaseHashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+            <state relative-caret-position="64">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -200,7 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MergeTwoLists.java" />
         <option value="$PROJECT_DIR$/src/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/DeleteDuplicates.java" />
         <option value="$PROJECT_DIR$/src/RemoveNthFromEnd.java" />
@@ -251,6 +263,7 @@
         <option value="$PROJECT_DIR$/src/wangzheng/sorts_12/KthSmallest.java" />
         <option value="$PROJECT_DIR$/src/wangzheng/sorts_15/sorts_12/KthSmallest.java" />
         <option value="$PROJECT_DIR$/src/wangzheng/sorts_15/Besearch.java" />
+        <option value="$PROJECT_DIR$/src/wangzheng/hashtable_20/LRUBaseHashTable.java" />
       </list>
     </option>
   </component>
@@ -264,8 +277,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="25" />
+    <option name="x" value="250" />
+    <option name="y" value="95" />
     <option name="width" value="1595" />
     <option name="height" value="830" />
   </component>
@@ -276,8 +289,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,30 +307,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wangzheng" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="alg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wangzheng" type="462c0819:PsiDirectoryNode" />
-              <item name="sorts_12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wangzheng" type="462c0819:PsiDirectoryNode" />
-              <item name="sorts_15" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582285815601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582546223934" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../svoice" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -344,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Besearch">
+  <component name="RunManager" selected="Application.LRUBaseHashTable">
     <configuration name="Besearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wangzheng.sorts_15.Besearch" />
       <module name="leetcode" />
@@ -364,6 +363,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="wangzheng.sorts_12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LRUBaseHashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wangzheng.hashtable_20.LRUBaseHashTable" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wangzheng.hashtable_20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -397,26 +409,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sorts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wangzheng.sorts_11.Sorts" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wangzheng.sorts_11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="回文数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回文数" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="罗马数字转整数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="罗马数字转整数" />
       <module name="leetcode" />
@@ -432,19 +424,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Sorts" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.KthSmallest" />
       <item itemvalue="Application.Besearch" />
+      <item itemvalue="Application.LRUBaseHashTable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUBaseHashTable" />
         <item itemvalue="Application.Besearch" />
         <item itemvalue="Application.KthSmallest" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.Sorts" />
       </list>
     </recent_temporary>
   </component>
@@ -486,18 +478,19 @@
       <workItem from="1581648559870" duration="12000" />
       <workItem from="1581756092380" duration="7175000" />
       <workItem from="1581852076950" duration="19554000" />
-      <workItem from="1582269459341" duration="10261000" />
+      <workItem from="1582269459341" duration="11293000" />
+      <workItem from="1582513471428" duration="6993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180782000" />
+    <option name="totallyTimeSpent" value="188807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17091152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,15 +499,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.47520107" visible="true" weight="0.34067547" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47989276" weight="0.30543318" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6119303" weight="0.34067547" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4792225" visible="true" weight="0.35095447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.7660858" weight="0.22173275" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5247989" side_tool="true" visible="true" weight="0.34067547" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.7647453" weight="0.16446403" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52077746" side_tool="true" visible="true" weight="0.35095447" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -568,17 +561,28 @@
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/wangzheng/hashtable_20/LRUBaseHashTable.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/wangzheng/hashtable_20/LRUBaseHashTable.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/wangzheng/hashtable_20/LRUBaseHashTable.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MissingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -737,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,6 +835,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_15/sorts_12/MergeSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_15/sorts_12/KthSmallest.java" />
+    <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_15/sorts_12/QuickSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_12/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_12/KthSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/有效的括号.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -872,33 +890,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_12/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_15/sorts_12/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_15/sorts_12/KthSmallest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_15/sorts_12/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_12/KthSmallest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wangzheng/sorts_15/Besearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+        <state relative-caret-position="1452">
+          <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wangzheng/hashtable_20/LRUBaseHashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
