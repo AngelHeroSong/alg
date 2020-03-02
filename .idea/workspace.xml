@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953b854f-631a-4b93-ae74-6b4779feb3e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/wangzheng/heap_28/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wangzheng/tree_24/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wangzheng/backtracking_39/Cal8queens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wangzheng/backtracking_39/Package01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -77,47 +77,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="79" />
+          <entry key="java" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="79" />
+          <entry key="JAVA" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="17783" />
+          <entry key="java" value="18700" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17783" />
+          <entry key="JAVA" value="18700" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wangzheng/hashtable_20/LRUBaseHashTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3564">
-              <caret line="164" column="30" selection-start-line="164" selection-start-column="30" selection-end-line="164" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wangzheng/trie_35/Trie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Character.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -161,11 +143,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wangzheng/heap_28/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="88">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wangzheng/backtracking_39/Cal8queens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-677">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/wangzheng/backtracking_39/Package01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -224,8 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ReverseBetween.java" />
-        <option value="$PROJECT_DIR$/src/Reverse.java" />
         <option value="$PROJECT_DIR$/src/HasCycle.java" />
         <option value="$PROJECT_DIR$/src/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/MergeSortedArray.java" />
@@ -275,6 +273,8 @@
         <option value="$PROJECT_DIR$/src/wangzheng/trie_35/Trie.java" />
         <option value="$PROJECT_DIR$/src/wangzheng/tree_24/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/wangzheng/heap_28/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/wangzheng/backtracking_39/Cal8queens.java" />
+        <option value="$PROJECT_DIR$/src/wangzheng/backtracking_39/Package01.java" />
       </list>
     </option>
   </component>
@@ -289,7 +289,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="250" />
-    <option name="y" value="96" />
+    <option name="y" value="95" />
     <option name="width" value="1595" />
     <option name="height" value="830" />
   </component>
@@ -320,6 +320,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wangzheng" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="alg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wangzheng" type="462c0819:PsiDirectoryNode" />
+              <item name="backtracking_39" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -329,7 +336,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582730343646" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583072416614" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../svoice" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -354,14 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Trie">
-    <configuration name="罗马数字转整数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="罗马数字转整数" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Package01">
     <configuration name="Besearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wangzheng.sorts_15.Besearch" />
       <module name="leetcode" />
@@ -375,12 +375,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wangzheng.sorts_12.KthSmallest" />
+    <configuration name="Cal8queens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wangzheng.backtracking_39.Cal8queens" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wangzheng.sorts_12.*" />
+          <option name="PATTERN" value="wangzheng.backtracking_39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -401,12 +401,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wangzheng.sorts_12.QuickSort" />
+    <configuration name="Package01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wangzheng.backtracking_39.Package01" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wangzheng.sorts_12.*" />
+          <option name="PATTERN" value="wangzheng.backtracking_39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,20 +435,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.罗马数字转整数" />
-      <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.KthSmallest" />
       <item itemvalue="Application.Besearch" />
       <item itemvalue="Application.LRUBaseHashTable" />
       <item itemvalue="Application.Trie" />
+      <item itemvalue="Application.Cal8queens" />
+      <item itemvalue="Application.Package01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Package01" />
+        <item itemvalue="Application.Cal8queens" />
         <item itemvalue="Application.Trie" />
         <item itemvalue="Application.LRUBaseHashTable" />
         <item itemvalue="Application.Besearch" />
-        <item itemvalue="Application.KthSmallest" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -493,18 +492,18 @@
       <workItem from="1582269459341" duration="11293000" />
       <workItem from="1582513471428" duration="9893000" />
       <workItem from="1582700039351" duration="2176000" />
-      <workItem from="1582705816024" duration="9412000" />
+      <workItem from="1582705816024" duration="15140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203295000" />
+    <option name="totallyTimeSpent" value="209023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17493297" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17493297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -513,15 +512,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61126006" weight="0.34067547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6105898" visible="true" weight="0.4126285" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47855228" weight="0.3274596" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.76206434" visible="true" weight="0.07048458" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.23793566" side_tool="true" visible="true" weight="0.07048458" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.76206434" weight="0.10425844" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3894102" side_tool="true" visible="true" weight="0.4126285" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -579,20 +578,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LruLinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DeleteDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -896,8 +881,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wangzheng/heap_28/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="88">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wangzheng/backtracking_39/Cal8queens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wangzheng/backtracking_39/Package01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
