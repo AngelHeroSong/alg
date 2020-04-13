@@ -59,6 +59,7 @@ class TestThread{
         ExecutorService threadPool = Executors.newFixedThreadPool(10);
         for (int i =0;i<10;i++){
             threadPool.submit(new Runnable() {
+
                 @Override
                 public void run() {
                     System.out.println(Thread.currentThread().getName()+"is Running");
@@ -66,6 +67,11 @@ class TestThread{
             });
         }
         threadPool.shutdown();
+
+
+        boolean interrupted = Thread.interrupted();
+        boolean interrupted1 = Thread.interrupted();
+        System.out.println(interrupted+"  "+interrupted1);
 
 
     }
