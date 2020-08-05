@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Reverse {
+public class    Reverse {
     //遍历
     public ListNode reverse(ListNode head){
       ListNode pre = null;
