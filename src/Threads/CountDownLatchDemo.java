@@ -8,17 +8,14 @@ public class CountDownLatchDemo {
         CountDownLatch countDownLatch = new CountDownLatch(3);
 
         for (int i = 0;i<3;i++){
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    System.out.println(Thread.currentThread().getName());
-                    try {
-                        Thread.sleep(50);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    countDownLatch.countDown();
+            new Thread(() -> {
+                System.out.println(Thread.currentThread().getName());
+                try {
+                    Thread.sleep(50);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+                countDownLatch.countDown();
             }).start();
         }
 
