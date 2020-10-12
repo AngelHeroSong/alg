@@ -15,6 +15,6 @@ class TestAnnotation{
     public static void main(String[] args) {
 
         Annotation[] annotations = TestAnnotationChild.class.getAnnotations();
-        System.out.println(Arrays.stream(annotations).noneMatch(l -> l.annotationType().equals(Test1.class)));
+        System.out.println(Arrays.stream(annotations).anyMatch(l -> l.annotationType().equals(Test1.class)));
     }
 }
