@@ -34,9 +34,48 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] nums = new int[]{10,7,2,4,7,62};
         QuickSort quickSort = new QuickSort();
-        quickSort.quickSort(nums,0,nums.length-1);
+        quickSort.sort(nums,0,nums.length-1);
         for (int num : nums){
             System.out.println(num);
         }
+    }
+
+    /**
+     * 练习
+     * @param nums
+     * @param start
+     * @param end
+     */
+    void sort(int[] nums,int start,int end){
+
+        if(start>end){
+            return;
+        }
+        int i,j,temp;
+        i=start;
+        j=end;
+        temp = nums[start];
+
+        while(i<j){
+            while(temp<=nums[j]&&i<j){
+                j--;
+            }
+            while(temp>=nums[i]&&i<j){
+                i++;
+            }
+
+            if(i<j){
+                int x = nums[j];
+                int y = nums[i];
+
+                nums[j] = y;
+                nums[i] = x;
+            }
+        }
+        nums[start] = nums[i];
+        nums[i] = temp;
+
+        sort(nums,start,j-1);
+        sort(nums,j+1,end);
     }
 }

@@ -5,7 +5,7 @@ public class MergeSort {
         int left = 0;
         int right = nums.length-1;
         int[] temp = new int[nums.length];
-        mergeSort(nums,left,right,temp);
+        sort(nums,left,right,temp);
         return nums;
     }
     public void mergeSort(int[] nums,int left,int right,int[] temp){
@@ -53,6 +53,56 @@ public class MergeSort {
         for (int num:nums){
             System.out.println(num);
         }
+    }
+
+    /**
+     * 练习
+     * @param nums
+     * @param lo
+     * @param hi
+     * @param temp
+     */
+    void sort(int[] nums,int lo,int hi,int[] temp){
+
+        if (lo<hi){
+            int mid = lo + (hi - lo)/2;
+            sort(nums,lo,mid,temp);
+            sort(nums,mid+1,hi,temp);
+            merge1(nums,lo,mid,hi,temp);
+        }
+
+    }
+    void merge1(int[] nums,int lo,int mid,int hi,int[] temp){
+        int i = lo;
+        int j = mid+1;
+        int t = 0;
+        while(i<=mid&&j<=hi){
+            if(nums[i]<=nums[j]){
+                temp[t++] = nums[i++];
+            }else{
+                temp[t++] = nums[j++];
+            }
+        }
+
+
+        while(i<=mid){
+            temp[t++] = nums[i++];
+        }
+        while(j<=hi){
+            temp[t++] = nums[j++];
+        }
+
+        t=0;
+
+        while(lo<=hi){
+            nums[lo++] = temp[t++];
+        }
+
+        System.out.println("temp: ");
+        for (int te : temp){
+            System.out.print(te+" ");
+        }
+        System.out.print("\n");
     }
 
 }
